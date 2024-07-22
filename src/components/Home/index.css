@@ -1,0 +1,61 @@
+.lapItem {
+  background-color: #c0bebe;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 767px) {
+  .helo {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: #1e293b;
+  }
+  .helo1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #475569;
+  }
+  .carousel {
+    width: 1240px;
+    height: 424px;
+    top: 309px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .p1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1e293b;
+  }
+  .failure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Retry {
+    height: 240px;
+    width: 300px;
+  }
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}

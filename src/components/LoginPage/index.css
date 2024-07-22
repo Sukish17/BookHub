@@ -1,0 +1,126 @@
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 767px) {
+  .form-website-logo {
+    height: 30px;
+    width: 90px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 499px;
+    height: 484px;
+    top: 270px;
+    left: 852px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid #d3d4d5;
+  }
+  .img-1 {
+    width: 50%;
+    height: 100%;
+  }
+  .card2 {
+    width: 585px;
+    height: 924px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #f3f9fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image2 {
+    width: 585px;
+    height: 924px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #505356;
+  }
+  .username-input-field {
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  .password-input-field {
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+
+  .login-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b81f0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .login-button {
+    margin-top: 35px;
+  }
+  .error-message {
+    align-self: start;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+
+    line-height: 16px;
+    color: #ff0b37;
+  }
+}
